@@ -1,0 +1,30 @@
+# PyTorch — must match your CUDA version.
+# RTX 5090 (Blackwell, sm_120) requires PyTorch >= 2.7 + CUDA 12.8.
+# Install with:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+torch>=2.7
+torchvision>=0.20
+
+# Quantum
+pennylane>=0.45
+pennylane-lightning>=0.45
+qiskit>=1.0
+qiskit-ibm-runtime>=0.45
+
+# Classical ML
+scikit-learn>=1.4
+scipy>=1.12
+
+# Data / numerics
+numpy>=1.26
+pandas>=2.2
+pillow>=10.0
+imagehash>=4.3
+opencv-python>=4.9
+
+# Visualisation
+matplotlib>=3.8
+seaborn>=0.13
+
+# Utilities
+tqdm>=4.66
