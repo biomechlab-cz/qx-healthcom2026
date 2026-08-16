@@ -158,6 +158,14 @@ All hyperparameters and paths are centralised in `utils/config.py`. Edit there â
 
 ---
 
+## Citation
+
+```bibtex
+Coming soon
+```
+
+---
+
 ## License
 
 Code released under the MIT License. See `LICENSE` for details.
